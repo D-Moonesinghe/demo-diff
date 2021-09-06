@@ -15,3 +15,11 @@ Steps:
 6.  Now add the modifications to the readme.md to index.
 7.  Now do __"git diff --staged"__
 
+Now what you are seeing is
+    1. the README.md copy in the repo is called a/readme.md.
+    2. the newly changed copy of READMEmd in the index is called b/readme.md
+    3. ---- indicates lines a/readme
+    4. ++++ indicates lines in b/readme.
+    5. White text is common to both versions a/readme.md and b/readme.md
+    6. Red text is previous text that was only seen on a/readme.md but now missing from the newer version.
+    7. Green text is newly added text that is only see on the updated b/readme.md.
