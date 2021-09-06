@@ -6,9 +6,11 @@ This repo demo-diff was created to explore all the possible variations of the gi
 __git diff__ command allows you to see changes that were made to a git object by comparing the changes between the before and after states.
 
 __git diff__ allows you to see the difference between:
-    1. Changes version in the workspace (working directory) vs the index.
-    2. Changes version in the index vs commit history
-    3. Changes between two commits in the commit history.
-    4. Changes done to a file.
-    5. Changes between branches.
+   1  Ex1: Working Directory & Index 
+    1. Ex2: Index vs Repo (commit history)
+    2. Ex3: Diff HEAD Changes in the Last Commit
+    3. Ex4: Between two different commits
+    4. Ex5: Between two different files in the working directory
+    5. Ex6: Between two different sub-directories
+    6. Ex7: Between two different branches
    
